@@ -30,8 +30,8 @@ We're on Discord for faster QnAs, and daily chit-chat.
 
 Article additions + amendments are always welcome!
 
-* Please make a PR to [Github](https://github.com/SoulEngineProject/Light.vn-wiki-en)
+* Please make a PR to the [Documentation Repo (Github)](https://github.com/SoulEngineProject/Light.vn-wiki-en)
 
 Engine Translation amendments
 
-* Make a PR in the [official repo](https://github.com/SoulEngineProject/Light.vn)
+* Make a PR in the [Translation Repo (Github)](https://github.com/SoulEngineProject/Light.vn)
