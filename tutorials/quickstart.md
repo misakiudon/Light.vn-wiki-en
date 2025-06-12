@@ -2,13 +2,13 @@
 title: Quickstart
 description: Your goto first tutorial on Light.vn
 published: true
-date: 2025-06-12T03:09:02.530Z
+date: 2025-06-12T03:09:59.237Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-12T03:04:59.242Z
 ---
 
-## Starter tips on your first Light.vn Project
+## Starter tips on your first [Light.vn](https://soulengineproject.itch.io/lightvn) Project
 
 - Create a new script by pressing the button on the top right: "New Script"
 - Open up Project -> Settings, then update "Start Script" to the filepath of your new script
