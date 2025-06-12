@@ -1,5 +1,7 @@
 # Light.vn-wiki-en
 
+![image](https://github.com/user-attachments/assets/15e31a43-1486-45cd-85f4-1ebe8aa0300e)
+
 Documentation storage for https://wikien.lightvn.net
 
 ## Contributions
