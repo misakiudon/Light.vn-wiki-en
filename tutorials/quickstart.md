@@ -34,3 +34,30 @@ The current script cursor location can be found using the [Scripts] tab in the e
 When in test play mode, the line auto updates to the current line that's been executed, so you can also know what's currently being executed. 
 
 ![image](https://github.com/user-attachments/assets/4f2062cb-2739-4bd4-9113-b7d3eb09c221)
+
+## Getting to know the editor (1: navigating the current script)
+
+When first using Light.vn, I'd recommend first learning how to navigate the editor: LightEditor.exe.
+I recommend the following steps:
+
+- Choose a file (ex. start0.txt)
+- Open up the Scripts tab
+- Click on different lines in the script: notice how 
+  - the preview screen updates
+  - the line number changes in the tab info to the current cursor position
+
+![image](https://github.com/user-attachments/assets/0e7a0742-eda9-4eed-b711-c557b5061858)
+
+## Getting to know the editor  (2: test play <-> edit mode)
+
+- click on a particular line, and press F5 to start test play.
+- notice again how
+  - the preview screen updates
+  - the line number changes in the Scripts tab info to the current line being played.
+- press F5 again to return to edit mode. 
+  - the preview will return again to the line which the script cursor is
+  - which can again be confirmed in the Scripts tab.
+
+Slam F5 back and forth until you get a good feel for this back and forth.
+
+![image](https://github.com/user-attachments/assets/dc47dd62-8cd5-4f9f-9683-9cb15c28df0b)
