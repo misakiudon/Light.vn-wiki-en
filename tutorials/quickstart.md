@@ -196,6 +196,19 @@ Result: the user is forced to make a choice (button click) to continue
 
 ![image](https://github.com/user-attachments/assets/1ab82570-1708-42c1-964f-b850e6453dd7)
 
+## Object layers and what appears first
+
+By default, objects with higher layers (`r` values) appear higher than those with lower values.  
+  
+Objects with the same layer value, have **no guarantee** as to what appears before the other. (**may even change mid game!**)
+
+You can check object layer values in the editor `Objects` tab:
+- The blue highlight means the r value overlaps with another object.
+- If the values overlap, you'd better make sure that the object images don't directly overlap!
+  - (which is why it's fine for ex. the skip, auto, etc. controls under the textbox to have the same layer value)
+
+![image](https://github.com/user-attachments/assets/e56e9742-9c69-4769-b6ac-607375ae418c)
+
 ## Exporting your game
 
 Can be done through `Project` -> `Publish`
@@ -211,6 +224,37 @@ Can be done through `Project` -> `Publish`
   - If it fails, you can almost be sure something will go wrong.
 - We think this is a much better method for users to check whether their game will run fine, vs for example a manual checklist provided in a website.
   - If a player reports your game not working, you as the dev can immediately first ask: "Did LightTests.exe run fine?"
+
+## App Icon Updates
+
+- [Article By Smileflower](https://en.yorubox.eu/light-vn-tutorial-ep-09-export-game-change-app-icon/#change-application-icon-in-lightvn)
+
+## What is a Plugin
+
+A plugin is a self-contained folder (module) that can be placed under `Data/Plugins/`.  
+You should be able to copy the folder and paste it into another project, and work **as-is**.
+
+It allows us to
+- distribute custom plugins for others to use (ex. UI plugins that you can sell)
+- share problems we're having as a minimal reproducible project for others to help debug.
+
+### How to create your own Plugin
+
+- Create a folder under `Data/Plugins` (ex. `my_plugin`)
+- Stuff all resources you will use in your plugin under that folder
+- From the editor: create a new script inside that plugin folder (ex. `plugin.txt`)
+  - make sure all resources used inside that script(s) reference the resources in the plugin by providing the absolute path:
+    - ex. `/Plugins/my_plugin/Common_PopupBg.png`
+
+Then you can zip your plugin folder, and share!  
+Users can then call your script as ex.  
+- `script /Plugins/my_plugin/plugin.txt`
+
+![image](https://github.com/user-attachments/assets/83ef0abe-69f3-4349-a212-1c5c46b7cd9e)
+
+![image](https://github.com/user-attachments/assets/b72a7434-33dd-494c-83a0-ddc1d2b5b30a)
+
+![image](https://github.com/user-attachments/assets/08d42040-fd91-47f9-9628-99d43903bc93)
 
 ## How to reload resources
 
