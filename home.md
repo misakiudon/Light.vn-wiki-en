@@ -12,7 +12,7 @@ dateCreated: 2024-11-09T16:00:07.194Z
 
 ### Basic Information
 
-This is the Lightvn Visual Novel engine user wiki (english).
+This is the Lightvn Visual Novel engine user wiki (english).  
 We're on Discord for faster QnAs, and daily chit-chat.
 
 * [Homepage](http://lightvn.net/)
