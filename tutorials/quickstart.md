@@ -35,6 +35,13 @@ When in test play mode, the line auto updates to the current line that's been ex
 
 ![image](https://github.com/user-attachments/assets/4f2062cb-2739-4bd4-9113-b7d3eb09c221)
 
+## Getting to know the editor (editor shortcuts)
+
+- `ctrl + f`: find and replace
+- `ctrl + c` `ctrl + v`: copy paste
+- `ctrl + z`: undo
+- `tab` `shift + tab` indent, reverse indent
+
 ## Getting to know the editor (1: navigating the current script)
 
 When first using Light.vn, I'd recommend first learning how to navigate the editor: LightEditor.exe.
