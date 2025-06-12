@@ -61,3 +61,46 @@ I recommend the following steps:
 Slam F5 back and forth until you get a good feel for this back and forth.
 
 ![image](https://github.com/user-attachments/assets/dc47dd62-8cd5-4f9f-9683-9cb15c28df0b)
+
+## What makes a 'Script'?
+
+- Light.vn scripts are .txt files that can be opened in LightEditor.exe, or your favourite text editor.
+- Script contents can be divided into 3 main components
+  - Light.vn commands
+  - Dialogue
+  - Macros
+
+**Light.vn commands**, are for example:
+```
+fadein title_bg0 1500
+```
+- you know it's a command by: 
+  - when double clicking on it, LightEditor.exe taking you to the `Commands` tab with the syntax and usage info.
+
+![image](https://github.com/user-attachments/assets/dcf5fee4-4cc1-4ece-859f-4fd1143b7247)
+
+**Dialogue**, is any part of the script that is highlighted completely in `Blue`.  
+It is started by the following commands:
+- `"`
+- `-"`
+
+All lines after are treated as a dialogue section.  
+To transition back to a Light.vn command section, start a new line with a `~`
+
+![image](https://github.com/user-attachments/assets/056caff1-6acc-4fa6-8a8b-96160a7524c0)
+
+**Macros**, are created through ex. commandMacro or macro command.  
+You know it's a macro by:
+- It's not blue
+- Double clicking on it doesn't take you to the Commands section in LightEditor.exe
+
+If the macro was registered through commandMacro, double clicking on it will take you to the Macros tab, which should also make it clear that it is a macro. 
+
+![image](https://github.com/user-attachments/assets/35a108f1-1660-41a4-8b62-4eeb3db7d088)
+
+A macro is basically a find and replace: replacing any match of source with changed result.  
+The function of a macro is usually an encapsulation of a Light.vn command, to prevent needing to write out the same long command(s) - thus just a convenience feature.
+
+Some examples can be found in: `Data/Plugins/lvui/_system/macros.txt`
+
+![image](https://github.com/user-attachments/assets/c0611c86-a103-40b4-b3e2-3a6b408a21e3)
