@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2024-11-09T16:00:07.194Z
 ---
 
-![lvn_title.png](/lvn_title.png)
+![image](https://github.com/user-attachments/assets/cdcfe990-1745-4216-9b7d-0605581ca848)
 
 ### Basic Information
 
