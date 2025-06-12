@@ -104,3 +104,114 @@ The function of a macro is usually an encapsulation of a Light.vn command, to pr
 Some examples can be found in: `Data/Plugins/lvui/_system/macros.txt`
 
 ![image](https://github.com/user-attachments/assets/c0611c86-a103-40b4-b3e2-3a6b408a21e3)
+
+## How is a Script Processed?
+
+2 main things to remember:
+
+- By default, a script will continue to read until it sees a `wait` command
+  - (or any other command that triggers the wait state).
+- A script will exit the wait state and continue to read upon the `continueRead` command.
+
+Thus you'll see `continueRead` bound to a bunch of keyDown commands inside ex. `/Plugins/lvui/_system/keys.txt`: 
+such that when a particular key is pressed, the script will continue to read. 
+
+(note: `/Plugins/lvui/_system/keys.tx` is called within `/Plugins/lvui/_system/textbox.txt`
+which is why when calling the default textbox, key bindings come for free)
+
+**Quick TIP**: if your script isn't continuing, you've likely forgotten to bind `continueRead` to a `keyDown` command.
+(or just add `script /Plugins/lvui/_system/keys.txt keybind_continueRead` in the problem location)
+
+You can check key bindings in the `Key Triggers` tab in the editor. 
+
+![image](https://github.com/user-attachments/assets/13979a26-5d85-412f-9d1d-e91503bf3215)
+
+## How is a Script Processed? 2
+
+A script reads top to bottom.
+There are 2 main commands that can change that:
+
+- `jump`
+- `script`
+
+`jump `
+- takes the current script parser, and jumps to a different script, or the same script but a different bookmark.
+- after the jump, the script will continue reading at the destination. (thus clearing any previous wait states)
+- as you can see, it can be used for creating ex. user choices.
+
+![image](https://github.com/user-attachments/assets/ccdecd67-1a25-49ff-be61-35534db82cb1)
+
+`script`
+- will create a new script parser with the target file and push it to the top of the script stack.
+- the script stack can be viewed in the `Scripts` tab.
+- once the script has finished reading (signalled by the `script_fin` command),  
+  the parser will pop, and the caller will continue reading.
+
+We can see the script stack increasing by ex. 
+
+- starting the game (`start0.txt`)
+- right clicking to bring up the menu (`/Plugins/lvui/_system/menu.txt`) (script stack increase 1 => 2)
+- clicking config to bring up the config page (`/Plugins/lvui/_system/config-system.txt`) (script stack increase 2 => 3)
+
+We know which script a particular script in the stack came from by looking at the ID tab.
+- `0 (from: n/a)`: n/a, thus this script has no source, which is right.
+- `1 (from: 0)`: thus we know this script was called by the script with ID: 0
+- `7 (from: 1)`: thus we know this script was called by the script with ID: 1
+
+Which would match our understanding with how the scripts were called in order. 
+
+![image](https://github.com/user-attachments/assets/a2068ed8-5f06-4441-9533-888563f45647)
+
+![image](https://github.com/user-attachments/assets/d8541cb1-8d07-4e25-8258-e287d868d75e)
+
+And then in reverse order,
+
+- we right click to exit the config page and back to the menu (script stack reduces 3 => 2)
+- we right click to exit the menu to get back to the main game (script stack reduces 2 => 1)
+
+Thus coming back to `start0.txt` line: 211, which is the location we started from.  
+(and can now continue)
+
+![image](https://github.com/user-attachments/assets/43203e71-f765-49e6-a541-59278b050b16)
+
+## How is a Script Processed? (example: User Choices)
+
+From the sections above, you can start to understand how user choices are created in Light.vn.
+
+- `wait preventContinueRead`
+  - puts the parser into the wait state
+  - prevents `continueRead` (bound to ex. `keyDown`) from unlocking the wait state and further parsing
+- `jump` is attached to the user choice buttons
+  - when the user clicks the button, the `jump` command activates
+  - the wait state releases, and the parser continues to parse at the specified destination
+
+Result: the user is forced to make a choice (button click) to continue 
+
+![image](https://github.com/user-attachments/assets/1ab82570-1708-42c1-964f-b850e6453dd7)
+
+## Exporting your game
+
+Can be done through `Project` -> `Publish`
+
+![image](https://github.com/user-attachments/assets/9a5b9732-9d5b-4cfc-90f9-1fad118625e1)
+
+**Q. Can I delete LightTests.exe from the published game?**
+
+- We recommend that you keep it.
+- `LightTests.exe` is Light.vn's method of checking whether the player has all the necessary settings to properly run your game.
+  - (If prior to publishing, LightTests will also check whether your PC is fit for development)
+- If the program passes, then your game will likely run fine. 
+  - If it fails, you can almost be sure something will go wrong.
+- We think this is a much better method for users to check whether their game will run fine, vs for example a manual checklist provided in a website.
+  - If a player reports your game not working, you as the dev can immediately first ask: "Did LightTests.exe run fine?"
+
+## How to reload resources
+
+Starting Light.vn 16.7, if you need to load a new version of any resource (text file, image, etc.), 
+you can click 
+
+`Project` -> `Reload Resources`
+
+and we'll fetch the updated copy. 
+
+![image](https://github.com/user-attachments/assets/4fc29fe0-7f17-4ab5-a305-6c40b58c1fde)
