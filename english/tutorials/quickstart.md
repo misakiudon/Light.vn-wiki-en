@@ -10,13 +10,13 @@ dateCreated: 2025-06-12T03:04:59.242Z
 
 ## Starter tips on your first [Light.vn](https://soulengineproject.itch.io/lightvn) Project
 
-- Create a new script by pressing the button on the top right: "New Script"
-- Open up Project -> Settings, then update "Start Script" to the filepath of your new script
+- Create a new script by pressing the button on the top right: `New Script`
+- Open up `Project` -> `Settings`, then update `Start Script` to the filepath of your new script
 - Paste:
 ```
 ~bg0 id0 bg/street_bg_noon.png | .fadein id0 300
 
-script system/macros.txt // macros
+script /Plugins/lvui/_system/macros.txt // macros
 
 ~textbox_bottom
 
@@ -108,7 +108,7 @@ If the macro was registered through commandMacro, double clicking on it will tak
 A macro is basically a find and replace: replacing any match of source with changed result.  
 The function of a macro is usually an encapsulation of a Light.vn command, to prevent needing to write out the same long command(s) - thus just a convenience feature.
 
-Some examples can be found in: `Data/Plugins/lvui/_system/macros.txt`
+Some examples can be found in: `/Plugins/lvui/_system/macros.txt`
 
 ![image](https://github.com/user-attachments/assets/c0611c86-a103-40b4-b3e2-3a6b408a21e3)
 
