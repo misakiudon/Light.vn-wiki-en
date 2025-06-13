@@ -2,13 +2,13 @@
 title: 11. Making Your Game Look Good
 description: Tips on how to make your game look good
 published: true
-date: 2025-06-13T02:12:02.456Z
+date: 2025-06-13T02:12:38.908Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-13T02:12:02.456Z
 ---
 
-## How to make your text look better
+## Visual Quality Tips
 
 `textLineSize` can be used to adjust the line size.   
   
