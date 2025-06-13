@@ -1,8 +1,8 @@
 ---
-title: Quickstart
+title: 00. Quickstart
 description: Your goto first tutorial on Light.vn
 published: true
-date: 2025-06-12T22:17:03.669Z
+date: 2025-06-13T01:49:48.720Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-12T03:04:59.242Z
