@@ -1,8 +1,8 @@
 ---
-title: External Tutorials
-description: 
+title: 99. External Tutorials
+description: External Tutorials by Friends
 published: true
-date: 2025-06-12T22:37:30.550Z
+date: 2025-06-13T01:50:26.133Z
 tags: 
 editor: markdown
 dateCreated: 2025-06-12T22:37:05.260Z
