@@ -81,7 +81,7 @@ to leverage the realtime preview advantages mentioned above.
 Many of Light.vn's commands that accept a command, can be wrapped in `""` to make it clear what the command is.  
 This also makes it clearer what `|` should mean to the engine.
 
-## Quick iteration tip: '.' for new lines
+## '.' for new lines
 
 A quick note that . at the start of a scenario line will create a new line.
 You can use more than one!
