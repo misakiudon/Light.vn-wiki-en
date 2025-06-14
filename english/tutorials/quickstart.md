@@ -34,7 +34,7 @@ script /Plugins/lvui/_system/macros.txt // macros
 
 ## Getting to know the editor (1: navigating the current script)
 
-When first using Light.vn, I'd recommend first learning how to navigate the editor: LightEditor.exe.
+When first using [Light.vn](https://soulengineproject.itch.io/lightvn), I'd recommend first learning how to navigate the editor: LightEditor.exe.
 I recommend the following steps:
 
 - Choose a file (ex. start0.txt)
@@ -71,13 +71,13 @@ When in test play mode, the line auto updates to the current line that's been ex
 
 ## What makes a 'Script'?
 
-- Light.vn scripts are .txt files that can be opened in LightEditor.exe, or your favourite text editor.
+- [Light.vn](https://soulengineproject.itch.io/lightvn) scripts are .txt files that can be opened in LightEditor.exe, or your favourite text editor.
 - Script contents can be divided into 3 main components
-  - Light.vn commands
+  - [Light.vn](https://soulengineproject.itch.io/lightvn) commands
   - Dialogue
   - Macros
 
-**Light.vn commands**, are for example:
+**[Light.vn](https://soulengineproject.itch.io/lightvn) commands**, are for example:
 ```
 fadein title_bg0 1500
 ```
@@ -92,7 +92,7 @@ It is started by the following commands:
 - `-"`
 
 All lines after are treated as a dialogue section.  
-To transition back to a Light.vn command section, start a new line with a `~`
+To transition back to a [Light.vn](https://soulengineproject.itch.io/lightvn) command section, start a new line with a `~`
 
 ![image](https://github.com/user-attachments/assets/056caff1-6acc-4fa6-8a8b-96160a7524c0)
 
@@ -106,7 +106,7 @@ If the macro was registered through commandMacro, double clicking on it will tak
 ![image](https://github.com/user-attachments/assets/35a108f1-1660-41a4-8b62-4eeb3db7d088)
 
 A macro is basically a find and replace: replacing any match of source with changed result.  
-The function of a macro is usually an encapsulation of a Light.vn command, to prevent needing to write out the same long command(s) - thus just a convenience feature.
+The function of a macro is usually an encapsulation of a [Light.vn](https://soulengineproject.itch.io/lightvn) command, to prevent needing to write out the same long command(s) - thus just a convenience feature.
 
 Some examples can be found in: `/Plugins/lvui/_system/macros.txt`
 
@@ -183,7 +183,7 @@ Thus coming back to `start0.txt` line: 211, which is the location we started fro
 
 ## How is a Script Processed? (example: User Choices)
 
-From the sections above, you can start to understand how user choices are created in Light.vn.
+From the sections above, you can start to understand how user choices are created in [Light.vn](https://soulengineproject.itch.io/lightvn).
 
 - `wait preventContinueRead`
   - puts the parser into the wait state
@@ -218,7 +218,7 @@ Can be done through `Project` -> `Publish`
 **Q. Can I delete LightTests.exe from the published game?**
 
 - We recommend that you keep it.
-- `LightTests.exe` is Light.vn's method of checking whether the player has all the necessary settings to properly run your game.
+- `LightTests.exe` is [Light.vn](https://soulengineproject.itch.io/lightvn)'s method of checking whether the player has all the necessary settings to properly run your game.
   - (If prior to publishing, LightTests will also check whether your PC is fit for development)
 - If the program passes, then your game will likely run fine. 
   - If it fails, you can almost be sure something will go wrong.
@@ -258,7 +258,7 @@ Users can then call your script as ex.
 
 ## How to reload resources
 
-Starting Light.vn 16.7, if you need to load a new version of any resource (text file, image, etc.), 
+Starting [Light.vn](https://soulengineproject.itch.io/lightvn) 16.7, if you need to load a new version of any resource (text file, image, etc.), 
 you can click 
 
 `Project` -> `Reload Resources`
