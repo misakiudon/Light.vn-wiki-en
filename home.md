@@ -2,7 +2,7 @@
 title: Light.vn Wiki - Home
 description: The Light.vn Visual Novel Engine Wiki (Wiki.js)
 published: true
-date: 2025-06-19T03:16:09.881Z
+date: 2025-06-19T03:17:27.201Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-09T16:00:07.194Z
@@ -20,9 +20,10 @@ We're on Discord for faster QnAs, and daily chit-chat.
 
 ### Communication Channels
 
-* [Discord](https://discord.gg/gzNThtmGH3) (official)
-* QQ: 909636560 (admin: xiakkto)
+* [Discord](https://discord.gg/gzNThtmGH3)
 * [X(Twitter)](https://x.com/lightvn_online)
+* [Bluesky](https://bsky.app/profile/lightvn-online.bsky.social)
+* QQ: 909636560 (admin: xiakkto)
 * [Youtube](https://www.youtube.com/@lightvn_online)
 * [Bilibili](https://space.bilibili.com/492809184)
 
