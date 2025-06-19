@@ -14,4 +14,5 @@ just make a PR with a file addition, amendment, etc.
 
 - https://docs.requarks.io/storage/git
 - This README.mdown has the extension `mdown` such that it doesn't render on the site.
+  - `mdown` isn't under `General` `URL Handling`, hence doesn't render
   - [reference](https://github.com/mkdocs/mkdocs/blob/master/docs/user-guide/writing-your-docs.md#file-layout)
