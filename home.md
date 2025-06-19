@@ -1,8 +1,8 @@
 ---
 title: Light.vn Wiki - Home
-description: The Light.vn Visual Novel Engine English Wiki
+description: The Light.vn Visual Novel Engine Wiki (Wiki.js)
 published: true
-date: 2025-06-12T22:44:52.197Z
+date: 2025-06-19T03:16:09.881Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-09T16:00:07.194Z
@@ -12,7 +12,7 @@ dateCreated: 2024-11-09T16:00:07.194Z
 
 ### Basic Information
 
-This is the Lightvn Visual Novel engine user wiki (english).  
+This is the Lightvn Visual Novel engine user wiki (Wiki.js).  
 We're on Discord for faster QnAs, and daily chit-chat.
 
 * [Homepage](http://lightvn.net/)
