@@ -17,6 +17,7 @@ We're on Discord for faster QnAs, and daily chit-chat.
 
 * [Homepage](http://lightvn.net/)
 * [itch.io (English)](https://soulengineproject.itch.io/lightvn)
+* [Wiki (Japanese)](https://wikiwiki.jp/lightvn/)
 
 ### Communication Channels
 
