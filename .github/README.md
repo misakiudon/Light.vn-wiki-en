@@ -13,3 +13,5 @@ just make a PR with a file addition, amendment, etc.
 ## References
 
 - https://docs.requarks.io/storage/git
+- This README.md is placed under `.github` as per [reference](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes#about-readmes)
+  - this is to prevent this page showing at the wiki site root
