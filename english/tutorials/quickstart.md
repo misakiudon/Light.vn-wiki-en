@@ -59,10 +59,26 @@ Slam F5 back and forth until you get a good feel for this back and forth.
 
 ![image](https://github.com/user-attachments/assets/dc47dd62-8cd5-4f9f-9683-9cb15c28df0b)
 
+## How to read the Command Syntax
+
+![image](https://github.com/user-attachments/assets/c3f0668b-7f1c-4cd7-a58d-cd886b3a0679)
+
+The syntax for each command is displayed like the following:
+```
+cg [name] [filename / animation name] [x] [y] [layer] (camera_option)
+```
+- inputs in `[]` are compulsory inputs
+- inputs in `()` are optional inputs
+
+Thus resulting in being able to write both:
+- `cg alice2 alice.png 150 30 50`
+- `cg alice2 alice.png 150 30 50 on_camera`
+
 ## Command Insertion Buttons on the Left
 
-When using the command insertion buttons on the left (blue), the command will insert at the location of the current script cursor.
-
+Command insertion buttons exists on the left (blue) to accelerate common use cases.  
+The command will insert at the location of the current script cursor.  
+  
 The current script cursor location can be found using the `Scripts` tab in the editor. (pink)
 
 When in test play mode, the line auto updates to the current line that's been executed, so you can also know what's currently being executed. 
