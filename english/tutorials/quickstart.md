@@ -117,7 +117,7 @@ You know it's a macro by:
 - It's not blue
 - Double clicking on it doesn't take you to the Commands section in LightEditor.exe
 
-If the macro was registered through commandMacro, double clicking on it will take you to the Macros tab, which should also make it clear that it is a macro. 
+If the macro was registered through `commandMacro`, double clicking on it will take you to the Macros tab, which should also make it clear that it is a macro. 
 
 ![image](https://github.com/user-attachments/assets/35a108f1-1660-41a4-8b62-4eeb3db7d088)
 
