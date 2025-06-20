@@ -76,7 +76,7 @@ Thus resulting in being able to write both:
 
 ## Command Insertion Buttons on the Left
 
-Command insertion buttons exists on the left (blue) to accelerate common use cases.  
+Command insertion buttons exist on the left (blue) to accelerate common use cases.  
 The command will insert at the location of the current script cursor.  
   
 The current script cursor location can be found using the `Scripts` tab in the editor. (pink)
