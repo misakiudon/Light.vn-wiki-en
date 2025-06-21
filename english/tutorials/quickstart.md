@@ -28,7 +28,7 @@ script /Plugins/lvui/_system/macros.txt // macros
 ~cg0 id1 scg2.png 310 125 80 | zoom id1 100% | .fadein id1 300
 ```
 - **PRO Tip**: Make sure to have joined the Discord server
-  - it's the central place to ask questions + chat
+  - It's the central place to ask questions + chat
 
 ## Getting to know the editor (editor shortcuts)
 
