@@ -148,7 +148,7 @@ such that when a particular key is pressed, the script will continue to read.
 (note: `/Plugins/lvui/_system/keys.tx` is called within `/Plugins/lvui/_system/textbox.txt`
 which is why when calling the default textbox, key bindings come for free)
 
-**Quick TIP**: if your script isn't continuing, you've likely forgotten to bind `continueRead` to a `keyDown` command.
+**PRO Tip**: if your script isn't continuing, you've likely forgotten to bind `continueRead` to a `keyDown` command.
 (or just add `script /Plugins/lvui/_system/keys.txt keybind_continueRead` in the problem location)
 
 You can check key bindings in the `Key Triggers` tab in the editor. 
