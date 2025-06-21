@@ -10,9 +10,12 @@ dateCreated: 2025-06-12T03:04:59.242Z
 
 ## Starter tips on your first [Light.vn](https://soulengineproject.itch.io/lightvn) Project
 
-- Create a new script by pressing the button on the top right: `New Script`
-- Open up `Project` -> `Settings`, then update `Start Script` to the filepath of your new script
-- Paste:
+- Play through the entire sample game
+  - This will give you an idea of what you can copy paste / customise for your game.
+- Open up `LightEditor.exe`
+  - Create a new script by pressing the button on the top right: `New Script`
+  - Open up `Project` -> `Settings`, then update `Start Script` to the filepath of your new script
+  - Paste:
 ```
 ~bg0 id0 bg/street_bg_noon.png | .fadein id0 300
 
@@ -61,8 +64,9 @@ Slam F5 back and forth until you get a good feel for this back and forth.
 
 ## How to read the Command Syntax
 
-![image](https://github.com/user-attachments/assets/c3f0668b-7f1c-4cd7-a58d-cd886b3a0679)
+![image](https://github.com/user-attachments/assets/19fdb11b-4ca5-4ef1-875d-e76f3552137b)
 
+Double clicking on any command in the script will bring up the `Commands` tab.  
 The syntax for each command is displayed like the following:
 ```
 cg [name] [filename / animation name] [x] [y] [layer] (camera_option)
