@@ -70,3 +70,19 @@ the `Created at` column also refers to the `last line the thing was updated`.
 - Place `onDestroy [name] SystemError "my object disappeared!"` on a line after it's creation.
 - When the object destroys, the editor shall pause and display the error
   - Check the `Scripts` tab: this shall give you the rough location where the destruction occurred.
+
+# My Game is Slow!
+
+This is likely due to having a bunch of unused objects on the screen.
+
+![image](https://github.com/user-attachments/assets/33f099ff-c48c-4bcc-9719-d5b1a4dbccf9)
+
+- Check `Render Count` on the bottom left of the editor
+- Check the `Objects` tab and see if you have objects leftover from previous scenes that are no longer needed
+  - you can use the `Created at` column to quickly scan where the objects originate
+
+**PRO Tip**: In the majority of cases, slowness can be avoided by making sure to add
+```
+clear
+```
+at the start and end of scenes. 
