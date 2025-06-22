@@ -30,20 +30,37 @@ script /Plugins/lvui/_system/macros.txt // macros
 - **PRO Tip**: Make sure to have joined the Discord server
   - It's the central place to ask questions + chat
 
+## Folder Structure
+
+You only need to know the following as a developer.
+
+**Folders**
+- `Data` for all your project data
+- `SaveData` save data
+- `Screenshots` screenshots
+
+**Files**
+- `LightApp.exe` the game application
+- `LightEditor.exe` the editor
+- `LightTests.exe` application to test your environment
+- `settings.xml` game settings
+
+You can safely ignore all other folders + files.
+
 ## Getting to know the editor (editor shortcuts)
 
-- `ctrl + f`: find and replace
-- `ctrl + c` `ctrl + v`: copy paste
-- `ctrl + z`: undo
+- `ctrl + f` find and replace
+- `ctrl + c` `ctrl + v` copy paste
+- `ctrl + z` undo
 - `tab` `shift + tab` indent, reverse indent
 
 ## Getting to know the editor (1: navigating the current script)
 
-When first using [Light.vn](https://soulengineproject.itch.io/lightvn), I'd recommend first learning how to navigate the editor: LightEditor.exe.
+When first using [Light.vn](https://soulengineproject.itch.io/lightvn), I'd recommend first learning how to navigate the editor: `LightEditor.exe`.
 I recommend the following steps:
 
-- Choose a file (ex. start0.txt)
-- Open up the Scripts tab
+- Choose a file (ex. `start0.txt`)
+- Open up the `Scripts` tab
 - Click on different lines in the script: notice how 
   - the preview screen updates
   - the line number changes in the tab info to the current cursor position
@@ -52,15 +69,15 @@ I recommend the following steps:
 
 ## Getting to know the editor  (2: test play <-> edit mode)
 
-- click on a particular line, and press F5 to start test play.
+- click on a particular line, and press `F5` to start test play.
 - notice again how
   - the preview screen updates
   - the line number changes in the Scripts tab info to the current line being played.
-- press F5 again to return to edit mode. 
+- press `F5` again to return to edit mode. 
   - the preview will return again to the line which the script cursor is
   - which can again be confirmed in the Scripts tab.
 
-Slam F5 back and forth until you get a good feel for this back and forth.
+Slam `F5` back and forth until you get a good feel for this back and forth.
 
 ![image](https://github.com/user-attachments/assets/dc47dd62-8cd5-4f9f-9683-9cb15c28df0b)
 
@@ -104,7 +121,7 @@ When in test play mode, the line auto updates to the current line that's been ex
 fadein title_bg0 1500
 ```
 - you know it's a command by: 
-  - when double clicking on it, LightEditor.exe taking you to the `Commands` tab with the syntax and usage info.
+  - when double clicking on it, the editor takes you to the `Commands` tab with the syntax and usage info.
 
 ![image](https://github.com/user-attachments/assets/dcf5fee4-4cc1-4ece-859f-4fd1143b7247)
 
@@ -237,6 +254,10 @@ Can be done through `Project` -> `Publish`
 
 ![image](https://github.com/user-attachments/assets/9a5b9732-9d5b-4cfc-90f9-1fad118625e1)
 
+**Reminders**
+
+- Make sure to empty `SaveData` and `Screenshots` folders should you test play before publishing your game to users.
+
 **Q. Can I delete LightTests.exe from the published game?**
 
 - We recommend that you keep it.
@@ -245,7 +266,7 @@ Can be done through `Project` -> `Publish`
 - If the program passes, then your game will likely run fine. 
   - If it fails, you can almost be sure something will go wrong.
 - We think this is a much better method for users to check whether their game will run fine, vs for example a manual checklist provided in a website.
-  - If a player reports your game not working, you as the dev can immediately first ask: "Did LightTests.exe run fine?"
+  - If a player reports your game not working, you as the dev can immediately first ask: `"Did LightTests.exe run fine?"`
 
 ## App Icon Updates
 
