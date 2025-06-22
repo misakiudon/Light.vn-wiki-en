@@ -23,6 +23,23 @@ If you notice something odd, a potential logical error in your script, try the f
 - if the error is potentially due to variables, combine the commands with `if` to make sure assumptions in your script are actually true
   - ex. `if (my_variable != 0) SystemError "my_variable is {{my_variable}}!"`
 
+## Changing the default textbox name macro
+
+By default Light.vn uses `【】` as a macro to display character names.
+
+![image](https://github.com/user-attachments/assets/33a48aad-7f54-4dc2-832e-8f5a1429eb8f)
+
+If you'd like to change it, open up the script containing macro by checking the `Macros` tab.  
+You will notice a macro like:
+```
+~macro "~【(.*)】" "~script /Plugins/lvui/_system/textbox.txt name \"$1\""
+```
+
+Update to for example the below to use `<>` instead:
+```
+~macro "~<(.*)>" "~script /Plugins/lvui/_system/textbox.txt name \"$1\""
+```
+
 ## My object isn't showing!
 
 Try the steps below.
