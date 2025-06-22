@@ -272,33 +272,6 @@ Can be done through `Project` -> `Publish`
 
 - [Article By Smileflower](https://en.yorubox.eu/light-vn-tutorial-ep-09-export-game-change-app-icon/#change-application-icon-in-lightvn)
 
-## What is a Plugin
-
-A plugin is a self-contained folder (module) that can be placed under `Data/Plugins/`.  
-You should be able to copy the folder and paste it into another project, and work **as-is**.
-
-It allows us to
-- distribute custom plugins for others to use (ex. UI plugins that you can sell)
-- share problems we're having as a minimal reproducible project for others to help debug.
-
-### How to create your own Plugin
-
-- Create a folder under `Data/Plugins` (ex. `my_plugin`)
-- Stuff all resources you will use in your plugin under that folder
-- From the editor: create a new script inside that plugin folder (ex. `plugin.txt`)
-  - make sure all resources used inside that script(s) reference the resources in the plugin by providing the absolute path:
-    - ex. `/Plugins/my_plugin/Common_PopupBg.png`
-
-Then you can zip your plugin folder, and share!  
-Users can then call your script as ex.  
-- `script /Plugins/my_plugin/plugin.txt`
-
-![image](https://github.com/user-attachments/assets/83ef0abe-69f3-4349-a212-1c5c46b7cd9e)
-
-![image](https://github.com/user-attachments/assets/b72a7434-33dd-494c-83a0-ddc1d2b5b30a)
-
-![image](https://github.com/user-attachments/assets/08d42040-fd91-47f9-9628-99d43903bc93)
-
 ## How to reload resources
 
 Starting [Light.vn](https://soulengineproject.itch.io/lightvn) 16.7, if you need to load a new version of any resource (text file, image, etc.), 
