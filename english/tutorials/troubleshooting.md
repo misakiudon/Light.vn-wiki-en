@@ -71,7 +71,7 @@ the `Created at` column also refers to the `last line the thing was updated`.
 - When the object destroys, the editor shall pause and display the error
   - Check the `Scripts` tab: this shall give you the rough location where the destruction occurred.
 
-# My Game is Slow!
+## My Game is Slow!
 
 This is likely due to having a bunch of unused objects on the screen.
 
