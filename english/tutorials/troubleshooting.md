@@ -12,7 +12,7 @@ dateCreated: 2025-06-12T20:37:06.418Z
 
 If you notice something might be an engine bug,  
 - try creating a minimally reproducible example as a [Plugin](./extensions.md#developer-extensions-plugins)
-- post the Plugin in Discord
+- post the Plugin in Discord with an explanation
 
 ## Logical Errors
 
