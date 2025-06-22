@@ -21,7 +21,7 @@ If you notice something odd, a potential logical error in your script, try the f
 - use `breakpoint` or `SystemError` in potential error locations
   - both will pause the editor if reached, and you can then use the info in the editor at that point to diagnose
 - if the error is potentially due to variables, combine the commands with `if` to make sure assumptions in your script are actually true
-  - ex. `if (my_variable == false) SystemError "my_variable is true!"`
+  - ex. `if (my_variable != 0) SystemError "my_variable is {{my_variable}}!"`
 
 ## My object isn't showing!
 
