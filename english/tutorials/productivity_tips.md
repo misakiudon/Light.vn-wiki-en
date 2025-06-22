@@ -8,27 +8,14 @@ editor: markdown
 dateCreated: 2025-06-13T01:36:24.676Z
 ---
 
-## How can I quickly create prototype buttons?
+## '.' for new lines
 
+A quick note that . at the start of a scenario line will create a new line.
+You can use more than one!
 ```
-textureCreateRect btn_prototype.png 300 50 255 0 0
-textureCreateRect btn_prototype_touch.png 300 50 0 255 0
-textureCreateRect btn_prototype_click.png 300 50 0 0 255
-
-~touchableRes btn_prototype.png btn_prototype_touch.png btn_prototype_click.png
-~button test1 100 300 80
-~btnText test1 NotoSansCJKjp-Regular.otf 24 "click me"
-
-~button test2 100 400 80
-~btnText test2 NotoSansCJKjp-Regular.otf 24 "click me too"
+...hello
 ```
-
-`textureCreateRect` functions similarly to commands like animation, textureCreate, etc. where the name gets cached into the game for continuous use. 
-- (in this case, cached as Images/btn_prototype.png, Images/btn_prototype_touch.png, etc.)
-- Thus you can ex. stash it in a script somewhere for use with all your initial button prototypes.
-- (and then delete them once you've created actual image(s) - making them the same name will prevent script changes)
-
-![image](https://github.com/user-attachments/assets/63863795-cdc2-4777-8c0e-921762f9a5de)
+Will create 3 new lines.
 
 ## Use | when appropriate
 
@@ -81,11 +68,24 @@ to leverage the realtime preview advantages mentioned above.
 Many of Light.vn's commands that accept a command, can be wrapped in `""` to make it clear what the command is.  
 This also makes it clearer what `|` should mean to the engine.
 
-## '.' for new lines
+## How can I quickly create prototype buttons?
 
-A quick note that . at the start of a scenario line will create a new line.
-You can use more than one!
 ```
-...hello
+textureCreateRect btn_prototype.png 300 50 255 0 0
+textureCreateRect btn_prototype_touch.png 300 50 0 255 0
+textureCreateRect btn_prototype_click.png 300 50 0 0 255
+
+~touchableRes btn_prototype.png btn_prototype_touch.png btn_prototype_click.png
+~button test1 100 300 80
+~btnText test1 NotoSansCJKjp-Regular.otf 24 "click me"
+
+~button test2 100 400 80
+~btnText test2 NotoSansCJKjp-Regular.otf 24 "click me too"
 ```
-Will create 3 new lines.
+
+`textureCreateRect` functions similarly to commands like animation, textureCreate, etc. where the name gets cached into the game for continuous use. 
+- (in this case, cached as Images/btn_prototype.png, Images/btn_prototype_touch.png, etc.)
+- Thus you can ex. stash it in a script somewhere for use with all your initial button prototypes.
+- (and then delete them once you've created actual image(s) - making them the same name will prevent script changes)
+
+![image](https://github.com/user-attachments/assets/63863795-cdc2-4777-8c0e-921762f9a5de)
