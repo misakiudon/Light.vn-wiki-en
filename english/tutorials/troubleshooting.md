@@ -25,7 +25,7 @@ If you notice something odd, a potential logical error in your script, try the f
 
 ## Changing the default textbox name macro
 
-By default Light.vn uses `【】` as a macro to display character names.
+By default we use `【】` as a macro to display character names.
 
 ![image](https://github.com/user-attachments/assets/33a48aad-7f54-4dc2-832e-8f5a1429eb8f)
 
