@@ -18,6 +18,7 @@ dateCreated: 2025-06-12T20:37:06.418Z
 - Click `Debug Save` in the editor `Interop` tab during test play
   - will create `SaveData/saveslot_debug.xml`
 - Click `Debug Load` to load back to that point during test play
+  - use the various editor features to diagnose
 - Or simply, share your project as-is along with `SaveData/`
   - post in Discord with an explanation + ask if someone can help look.
 
