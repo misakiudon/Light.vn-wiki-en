@@ -10,11 +10,11 @@ dateCreated: 2025-06-12T20:37:06.418Z
 
 ## Sharing Bugs
 
-If you notice something might be an engine bug,  
+**If you notice something might be an engine bug**
 - try creating a minimally reproducible example as a [Plugin](./extensions.md#developer-extensions-plugins)
 - post the Plugin in Discord with an explanation
 
-If you run into an error that you just cannot understand, or rarely run into
+**If you run into an error that you just cannot understand, or rarely run into**
 - Click `Debug Save` in the editor `Interop` tab during test play
   - will create `SaveData/saveslot_debug.xml`
 - Click `Debug Load` to load back to that point during test play
