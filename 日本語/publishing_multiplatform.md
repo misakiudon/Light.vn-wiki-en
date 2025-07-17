@@ -1,8 +1,8 @@
 ---
-title: 20. マルチプラットフォーム展開
+title: 20. 作品配布
 description: 
 published: true
-date: 2025-07-17T21:19:27.068Z
+date: 2025-07-17T23:32:42.520Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-17T21:19:27.068Z
