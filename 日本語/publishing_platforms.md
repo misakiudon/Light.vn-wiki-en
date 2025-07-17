@@ -14,7 +14,7 @@ dateCreated: 2025-07-17T21:05:28.906Z
 
 **ふりーむ！**
 
-<img width="1971" height="1010" alt="image" src="https://github.com/user-attachments/assets/fd476a95-8f62-435e-9cd8-d10cd9aad822" />
+<img alt="image" src="https://github.com/user-attachments/assets/fd476a95-8f62-435e-9cd8-d10cd9aad822" />
 
 - リンク
   - https://www.freem.ne.jp/ 
@@ -24,7 +24,7 @@ dateCreated: 2025-07-17T21:05:28.906Z
 
 **PLiCy**
 
-<img width="982" height="535" alt="image" src="https://github.com/user-attachments/assets/a751e334-805c-43a9-9247-79ade884aadc" />
+<img alt="image" src="https://github.com/user-attachments/assets/a751e334-805c-43a9-9247-79ade884aadc" />
 
 - リンク
   - https://plicy.net/ 
@@ -36,7 +36,7 @@ dateCreated: 2025-07-17T21:05:28.906Z
 
 **DLSite**
 
-<img width="1171" height="389" alt="image" src="https://github.com/user-attachments/assets/535a504d-5b43-4de0-befa-6820f29aa9d4" />
+<img alt="image" src="https://github.com/user-attachments/assets/535a504d-5b43-4de0-befa-6820f29aa9d4" />
 
 - リンク
   - http://www.dlsite.com/ 
@@ -45,7 +45,7 @@ dateCreated: 2025-07-17T21:05:28.906Z
 
 **Steam**
 
-<img width="1790" height="931" alt="image" src="https://github.com/user-attachments/assets/42859c90-4fb0-49d5-87d8-e3d577f322fb" />
+<img alt="image" src="https://github.com/user-attachments/assets/42859c90-4fb0-49d5-87d8-e3d577f322fb" />
 
 - リンク
   - http://store.steampowered.com/
@@ -57,7 +57,7 @@ dateCreated: 2025-07-17T21:05:28.906Z
 
 **ノアフェス**
 
-<img width="1061" height="589" alt="image" src="https://github.com/user-attachments/assets/536bba2d-1212-4e4d-915e-f276c54852d3" />
+<img alt="image" src="https://github.com/user-attachments/assets/536bba2d-1212-4e4d-915e-f276c54852d3" />
 
 - リンク
   - https://noahfes.jp/ 
@@ -68,7 +68,7 @@ dateCreated: 2025-07-17T21:05:28.906Z
 
 **Light.vn Discord**
 
-<img width="1053" height="620" alt="image" src="https://github.com/user-attachments/assets/a2b71f01-3564-455d-a57e-81e0d9ae06f9" />
+<img alt="image" src="https://github.com/user-attachments/assets/a2b71f01-3564-455d-a57e-81e0d9ae06f9" />
 
 - アクセスリンク：https://discord.com/invite/9snCma3 
 - 特徴
@@ -79,7 +79,7 @@ dateCreated: 2025-07-17T21:05:28.906Z
 
 **コミックマーケット**
 
-<img width="822" height="455" alt="image" src="https://github.com/user-attachments/assets/f1a79a90-0c16-406e-983b-d1aef1a05eb3" />
+<img alt="image" src="https://github.com/user-attachments/assets/f1a79a90-0c16-406e-983b-d1aef1a05eb3" />
 
 - リンク
   - http://www.comiket.co.jp/ 
@@ -88,7 +88,7 @@ dateCreated: 2025-07-17T21:05:28.906Z
 
 **コミティア**
 
-<img width="685" height="518" alt="image" src="https://github.com/user-attachments/assets/767be217-7fb5-49c0-986e-ecabb5a9acb5" />
+<img alt="image" src="https://github.com/user-attachments/assets/767be217-7fb5-49c0-986e-ecabb5a9acb5" />
 
 - リンク
   - https://www.comitia.co.jp/ 
