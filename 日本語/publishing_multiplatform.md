@@ -14,9 +14,9 @@ Python
 
 - https://www.python.org/downloads/
 - <img alt="image" src="https://github.com/user-attachments/assets/0a0d0596-f8db-44bd-a299-233d1d8ec177" />
-  - **Add Python 3.9 to PATH をチェックいれること！**
+- **Add Python 3.9 to PATH をチェックいれること！**
 - <img alt="image" src="https://github.com/user-attachments/assets/ca8b1ddc-3aa3-4857-b9bc-567a8d4d3335" />
-  - Disable path length limitもおす
+- Disable path length limitもおす
 - Close押してインストール終了
 
 Cmder
