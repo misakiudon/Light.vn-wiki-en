@@ -46,7 +46,7 @@ Sometimes you may want to update your users' game version, but having them redow
   - open `cmder` and run:
     - `sh setup_emscripten.sh`
     - paste the path that's output at the end into `emsdk_directory.txt`
-    - (and also `_export/webgl/scripts/emsdk_directory.txt` for convenience)
+    - (and also `_export/webgl/scripts/emsdk_directory.txt` for convenience: the folder where `LightEditor.exe` exists)
       - <img alt="image" src="https://github.com/user-attachments/assets/3d4d0d65-6a07-41e7-a3e6-cebaf1bcf71e" />
       - in this case, `/c/Users/daego/Desktop/Light.vn_Sample/emsdk`
 
