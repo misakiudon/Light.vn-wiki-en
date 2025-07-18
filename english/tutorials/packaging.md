@@ -28,10 +28,38 @@ The C++ version of Light.vn has the following customisations you may want to con
 
 Sometimes you may want to update your users' game version, but having them redownload the entire game may be costly or difficult. In which case, you can create a minimal `Patch` for your users.
 
-- <img width="830" height="699" alt="image" src="https://github.com/user-attachments/assets/83581d27-41ac-49e9-a74c-1141400b3b05" />
+- <img alt="image" src="https://github.com/user-attachments/assets/83581d27-41ac-49e9-a74c-1141400b3b05" />
 - This will result in a `Patch` folder. zip it and have your users place it in the root folder of your game. 
 
 ## Web
+
+**Preparations**
+
+- [python3](https://www.python.org/downloads/)
+- [cmder](https://cmder.app/)
+
+**Finalising the web build**
+
+- update `emdsdk_directory.txt`
+  - go to the folder where you want to install `emsdk` (outside the game deployed folder)
+  - paste `{game folder}/scripts/setup_emscripten.sh`
+  - open `cmder` and run:
+    - `sh setup_emscripten.sh`
+    - paste the path that's output at the end into `emsdk_directory.txt`
+    - (and also `_export/webgl/scripts/emsdk_directory.txt` for convenience)
+      - <img alt="image" src="https://github.com/user-attachments/assets/3d4d0d65-6a07-41e7-a3e6-cebaf1bcf71e" />
+      - in this case, `/c/Users/daego/Desktop/Light.vn_Sample/emsdk`
+
+**Test play**
+
+- To start: run `sh ./scripts/run.sh`
+  - this will create `loader.js` `project.data` and open the browser with the game running
+  - open the browser console to make sure your `project.data` is up to date (and the browser cache isn't conflicting)
+- To finish: `ctrl + c`
+
+**Uploading the game**
+
+- All folders except `data/` `scripts/`
 
 **Differences between the C++ version**
 
