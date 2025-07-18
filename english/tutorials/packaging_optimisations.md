@@ -10,7 +10,7 @@ dateCreated: 2025-07-18T22:37:32.456Z
 
 ## File optimisations
 
-### Recommended File Formats
+**Recommended File Formats**
 
 We recommend optimising files to the following formats to reduce disk space as much as possible.
 
@@ -18,7 +18,7 @@ We recommend optimising files to the following formats to reduce disk space as m
 - Images: webp
   - use ex. [tinypng](https://tinypng.com/) for conversion
 
-### Recommended Filenames
+**Recommended Filenames**
 
 We recommend only using alphanumerics and `_` in filenames if you want to deploy to as many different OSes as possible.  
 Ex. `momo_costume_1.webp`
