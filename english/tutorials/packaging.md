@@ -30,3 +30,37 @@ Sometimes you may want to update your users' game version, but having them redow
 
 - <img width="830" height="699" alt="image" src="https://github.com/user-attachments/assets/83581d27-41ac-49e9-a74c-1141400b3b05" />
 - This will result in a `Patch` folder. zip it and have your users place it in the root folder of your game. 
+
+## Web
+
+**Differences between the C++ version**
+
+- Features not implemented or things to understand
+  - Text input
+  - Command: `open` is restricted to urls
+  - If you use `lua`, note that you cannot use functions that assume Windows
+  - Audio does not play until the page is clicked
+- Feature differences
+  - All resources are loaded at game startup
+  - The FPS is capped at `60`
+
+**Deployment customisations**
+
+- settings.xml
+  - `disallowOpen`: controls whether to allow the `open` command
+    - depending on the platform you deploy, the game might stop if a url is attempted to be opened.
+    - ex. due to the server's `Content-Security-Policy`
+  - `disallowPopups`: controls whether to show error alerts
+    - unlike desktop games, users may be more intolerant of errors
+
+**When deploying to your own server, make sure**
+
+- `Response Header` is set with
+  - `"Cross-Origin-Opener-Policy", "same-origin"`
+  - `"Cross-Origin-Embedder-Policy", "require-corp"`
+  - refer to `server.py`
+
+**Optimisation is important!**
+
+As the whole game is loaded at startup, file optimisations to reduce disk space is very important. 
+- Try to aim for less than `90MB`
