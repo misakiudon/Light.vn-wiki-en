@@ -17,7 +17,7 @@ We recommend optimising files to the following formats to reduce disk space as m
 - Images: webp
   - use ex. [tinypng](https://tinypng.com/) for conversion
 - Audio: ogg
-  - Please make sure the audio file does not contain a video stream
+  - Please make sure the audio file does not contain a video stream. Example:
   - <img alt="image" src="https://github.com/user-attachments/assets/74b9909a-15d7-4561-a729-5acf28a3e9ed" />
 
 **Recommended Filenames**
