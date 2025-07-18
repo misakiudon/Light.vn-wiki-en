@@ -62,7 +62,7 @@ Sometimes you may want to update your users' game version, but having them redow
 
 **Uploading the game**
 
-- All folders except `data/` `scripts/`
+- All files except `data/` `scripts/`
 
 **Differences between the C++ version**
 
