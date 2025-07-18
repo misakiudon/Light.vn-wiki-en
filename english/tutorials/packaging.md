@@ -36,6 +36,9 @@ Sometimes you may want to update your users' game version, but having them redow
 **Preparations**
 
 - [python3](https://www.python.org/downloads/)
+  - during installation make sure to:
+    - `Add Python 3.9 to PATH`
+    - `Disable path length limit`
 - [cmder](https://cmder.app/)
 
 **Finalising the web build**
