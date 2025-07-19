@@ -120,6 +120,8 @@ This further highlights the importance of `good naming` conventions. ([reference
 ## Writing safe macros
 
 Macros are a way to convert text A to B.  
+You will likely start using them to create `custom commands`.  
+  
 They can however be dangerous as you may replace some random `A` that you weren't intending to convert.  
 We thus recommmend the following: 
 
