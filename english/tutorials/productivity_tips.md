@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2025-06-13T01:36:24.676Z
 ---
 
-## '.' for new lines
+## `.` for new lines
 
 A quick note that . at the start of a scenario line will create a new line.
 You can use more than one!
