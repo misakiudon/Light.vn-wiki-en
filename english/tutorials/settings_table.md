@@ -12,6 +12,7 @@ dateCreated: 2025-07-19T14:58:58.291Z
 
 - `+`: add, positive
 - `-`: subtract, negative
+- `!`: not
 - `*`: multiply
 - `/`: divide
 - `%`: modulus
@@ -52,7 +53,7 @@ dateCreated: 2025-07-19T14:58:58.291Z
 - `f4`
 - `f5`
 - `f6`
-- `f7
+- `f7`
 - `f8`
 - `f9`
 - `f10`
