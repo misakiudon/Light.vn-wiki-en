@@ -115,7 +115,7 @@ And can be simplified further by using regular expressions:
 ```
 fadeout alice.* 800
 ```
-This highlights the importance of `good naming` conventions. 
+This further highlights the importance of `good naming` conventions. ([reference](https://github.com/SoulEngineProject/Light.vn/issues/12))
 
 ## How can I quickly create prototype buttons?
 
