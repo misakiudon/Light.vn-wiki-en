@@ -17,6 +17,13 @@ You can use more than one!
 ```
 Will create 3 new lines.
 
+## Scene cleanup
+
+At the start or end of any scene, add
+- `clear`
+
+This will make sure all artifacts from previous scenes are cleared, keeping your current scene deterministic every run. 
+
 ## Explore textAutoWait 
 
 The `textAutoWait` command allows you to automate the way you write scenarios from ex.
