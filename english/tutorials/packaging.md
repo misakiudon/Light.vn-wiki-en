@@ -43,12 +43,12 @@ Sometimes you may want to update your users' game version, but having them redow
 
 **Finalising the web build**
 
-- update `emdsdk_directory.txt`
+- update `scripts/emdsdk_directory.txt`
   - go to the folder where you want to install `emsdk` (outside the game deployed folder)
   - paste `{game folder}/scripts/setup_emscripten.sh`
   - open `cmder` and run:
     - `sh setup_emscripten.sh`
-    - paste the path that's output at the end into `emsdk_directory.txt`
+    - paste the path that's output at the end into your game exported folder's `scripts/emsdk_directory.txt`
     - (and also `_export/webgl/scripts/emsdk_directory.txt` for convenience: the folder where `LightEditor.exe` exists)
       - <img alt="image" src="https://github.com/user-attachments/assets/3d4d0d65-6a07-41e7-a3e6-cebaf1bcf71e" />
       - in this case, `/c/Users/daego/Desktop/Light.vn_Sample/emsdk`
@@ -56,8 +56,9 @@ Sometimes you may want to update your users' game version, but having them redow
 **Test play**
 
 - To start: run `sh ./scripts/run.sh`
-  - this will create `loader.js` `project.data` and open the browser with the game running
+  - this will package your game files into `loader.js` `project.data`, and open the browser with the game running
   - open the browser console to make sure your `project.data` is up to date (and the browser cache isn't conflicting)
+  - <img alt="image" src="https://github.com/user-attachments/assets/b7a8fffe-c4a1-4c31-b7ec-9f1b396ac87c" />
 - To finish: `ctrl + c`
 
 **Uploading the game**
