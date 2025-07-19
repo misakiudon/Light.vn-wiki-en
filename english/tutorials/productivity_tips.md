@@ -117,7 +117,7 @@ fadeout alice.* 800
 ```
 This further highlights the importance of `good naming` conventions. ([reference](https://github.com/SoulEngineProject/Light.vn/issues/12))
 
-## Writing safe macros
+## Script Automation: Writing safe macros
 
 Macros are a way to convert text A to B.  
 You will likely start using them to create `custom commands`.  
