@@ -22,7 +22,9 @@ Will create 3 new lines.
 At the start or end of any scene, add
 - `clear`
 
-This will make sure all artifacts from previous scenes are cleared, keeping your current scene deterministic every run. 
+This will make sure all artifacts from previous scenes are cleared, thus
+- makes your current scene deterministic every run
+- keeps your game's resource usage to the bare minimum
 
 ## Explore textAutoWait 
 
