@@ -8,5 +8,25 @@ editor: markdown
 dateCreated: 2025-07-19T14:58:58.291Z
 ---
 
-# Header
-Your content here
+## Variable Operations
+
+- `+`: add, positive
+- `-`: subtract, negative
+- `*`: multiply
+- `/`: divide
+- `%`: modulus
+- `<`, `<=`
+- `>`, `>=`
+- `**`: power
+- `~`: bit not
+- `|`: bit or
+- `&`: bit and
+- `||`: or
+- `&&`: and
+- `<<`: bit left shift
+- `>>`: bit right shift
+- `==`: equal
+- `!=`: not equal
+
+# Key Triggers
+
