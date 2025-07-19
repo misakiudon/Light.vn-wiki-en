@@ -26,7 +26,7 @@ This will make sure all artifacts from previous scenes are cleared, thus
 - makes your current scene deterministic every run
 - keeps your game's resource usage to the bare minimum
 
-## Explore textAutoWait 
+## Scenario Automation: Explore textAutoWait 
 
 The `textAutoWait` command allows you to automate the way you write scenarios from ex.
 ```
