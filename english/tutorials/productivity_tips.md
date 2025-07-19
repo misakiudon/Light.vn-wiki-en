@@ -44,7 +44,7 @@ textAutoWait 1
 (line waits occur automatically at the end of each line)  
   
 `textAutoWait` has multiple different options,  
-and can greatly reduce the time it takes to bring your Scenario into Lightvn.  
+and can greatly reduce the time it takes to bring your scenario into Lightvn.  
 Explore and see what's best!
 
 ## Use | when appropriate
@@ -116,6 +116,35 @@ And can be simplified further by using regular expressions:
 fadeout alice.* 800
 ```
 This further highlights the importance of `good naming` conventions. ([reference](https://github.com/SoulEngineProject/Light.vn/issues/12))
+
+## Writing safe macros
+
+Macros are a way to convert text A to B.  
+They can however be dangerous as you may replace some random `A` that you weren't intending to convert.  
+We thus recommmend the following: 
+
+**A. Use `commandMacro`**
+- example:
+  - convert `~macro my_textbox “script system\textbox.txt default”`
+  - to: `~commandMacro my_textbox “script system\textbox.txt default”`
+- why:
+  - `commandMacro` guarantees conversion only of text that satisfies the requirements of the text being a potential command
+  - note, it does this at the cost of not being able to use `regular expressions`.
+    - if you need this, check the below for more options.
+
+**B. Add `~` at the start of the macro**
+- example:
+  - convert `~macro my_textbox “script system\textbox.txt default”`
+  - to: `~macro ~my_textbox “~script system\textbox.txt default”`
+- why:
+  - `~` in Lightvn means to treat the line afterwards as a command line
+
+**C. Add `^` at the start of the macro**
+- example:
+  - convert `~macro my_textbox “script system\textbox.txt default”`
+  - to: `~macro ^~my_textbox “^~script system\textbox.txt default”`
+- why:
+  - `^` means the `start of the line`, thus limiting the scope further and making this potentially safer. 
 
 ## How can I quickly create prototype buttons?
 
