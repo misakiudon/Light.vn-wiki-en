@@ -17,6 +17,27 @@ You can use more than one!
 ```
 Will create 3 new lines.
 
+## Explore textAutoWait 
+
+The `textAutoWait` command allows you to automate the way you write scenarios from ex.
+```
+"This is great\w
+.This is even great\w
+.This is triple great\w
+```
+to
+```
+textAutoWait 1
+"This is great
+.This is even great
+.This is triple great
+```
+(line waits occur automatically at the end of each line)  
+  
+`textAutoWait` has multiple different options,  
+and can greatly reduce the time it takes to bring your Scenario into Lightvn.  
+Explore and see what's best!
+
 ## Use | when appropriate
 
 `|` is a symbol to use multiple commands on the same line.  
@@ -67,6 +88,25 @@ to leverage the realtime preview advantages mentioned above.
 
 Many of Light.vn's commands that accept a command, can be wrapped in `""` to make it clear what the command is.  
 This also makes it clearer what `|` should mean to the engine.
+
+## Targetting multiple objects at once
+
+Many people write scripts like the below to apply the same changes on multiple objects.
+```
+fadeout alice1 800
+fadeout alice2 800
+fadeout alice3 800
+fadeout alice4 800
+``` 
+This can be simplified to a single line like so:
+```
+fadeout alice1, alice2, alice3, alice4 800
+```
+And can be simplified further by using regular expressions:
+```
+fadeout alice.* 800
+```
+This highlights the importance of `good naming` conventions. 
 
 ## How can I quickly create prototype buttons?
 
