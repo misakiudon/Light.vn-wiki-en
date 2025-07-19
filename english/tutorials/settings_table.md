@@ -28,5 +28,69 @@ dateCreated: 2025-07-19T14:58:58.291Z
 - `==`: equal
 - `!=`: not equal
 
-# Key Triggers
+## Key Triggers
 
+- `l.click`
+- `r.click`
+- `wheel.down`
+- `wheel.up`
+- `wheel.click`
+- `enter`
+- `esc`
+- `ctrl.l`
+- `ctrl.r`
+- `space`
+- `shift.l`
+- `shift.r`
+- `/`
+- `*`
+- `+`
+- `-`
+- `f1`
+- `f2`
+- `f3`
+- `f4`
+- `f5`
+- `f6`
+- `f7
+- `f8`
+- `f9`
+- `f10`
+- `f11`
+- `f12`
+- `0`
+- `1`
+- `2`
+- `3`
+- `4`
+- `5`
+- `6`
+- `7`
+- `8`
+- `9`
+- `a`
+- `b`
+- `c`
+- `d`
+- `e`
+- `f`
+- `g`
+- `h`
+- `i`
+- `j`
+- `k`
+- `l`
+- `m`
+- `n`
+- `o`
+- `p`
+- `q`
+- `r`
+- `s`
+- `t`
+- `u`
+- `v`
+- `w`
+- `x`
+- `y`
+- `z`
