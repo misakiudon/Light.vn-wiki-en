@@ -1,8 +1,8 @@
 ---
-title: Light.vn Wiki - Home
+title: 00. Light.vn Wiki - Home
 description: The Light.vn Visual Novel Engine Wiki (Wiki.js)
 published: true
-date: 2025-06-19T03:17:27.201Z
+date: 2025-07-27T03:18:24.317Z
 tags: 
 editor: markdown
 dateCreated: 2024-11-09T16:00:07.194Z
