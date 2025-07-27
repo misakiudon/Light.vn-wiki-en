@@ -1,8 +1,8 @@
 ---
 title: 99. Events
-description: List of events
+description: List of current and past events
 published: true
-date: 2025-07-27T03:14:03.884Z
+date: 2025-07-27T19:47:50.230Z
 tags: 
 editor: markdown
 dateCreated: 2025-07-27T03:13:42.479Z
