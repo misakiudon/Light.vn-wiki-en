@@ -8,6 +8,8 @@ editor: markdown
 dateCreated: 2025-07-27T03:13:42.479Z
 ---
 
+<img alt="image" src="https://github.com/user-attachments/assets/d64e3e6c-34fc-4f3a-8ced-75753e2c621b" />
+
 ## List of Events
 
 - [Light.vn Summer Jam 2025](https://itch.io/jam/lightvn-summer-jam)
